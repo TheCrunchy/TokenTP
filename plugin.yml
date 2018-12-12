@@ -1,0 +1,24 @@
+name: TokenTP
+main: tokenmain.main
+version: 1.0
+commands:
+    tokenget:
+      description: gives a player a token
+      default: OP
+      usage: tokenget
+    tpa:
+      description: Allows a player to send tpa request
+      default: true
+      usage: tpa
+    tpahere:
+      description: Allows a player to send tpahere request
+      default: true
+      usage: tpahere
+    tpaccept:
+      description: Allows a player to accept a tp request
+      default: true
+      usage: 
+    tpdeny:
+      description: Allows a player to deny a teleport request
+      default: true
+      usage: tpdeny
